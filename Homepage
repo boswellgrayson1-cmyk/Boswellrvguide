@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover how to make money with RVs through guides, flipping, rentals, and affiliate marketing. Maximize your RV profits with expert tips.">
+    <meta name="keywords" content="RV guides, make money with RVs, RV flipping, RV rentals, RV affiliate marketing, RV travel, RV maintenance">
+    <title>Boswell RV Guide - Make Money with RVs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Boswell RV Guide</h1>
+        <p>Your Ultimate Guide to Making Money with RVs</p>
+    </header>
+    <nav>
+        <a href="Homepage">Home</a>
+        <a href="guides.html">Guides</a>
+        <a href="monetize.html">Monetization</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to Boswell RV Guide</h2>
+            <p>Turn your RV passion into profit! Learn about RV flipping, rentals, blogging, and more. Get expert tips to maximize earnings and attract traffic to your site.</p>
+            <div class="ad">
+                <!-- Google AdSense Banner -->
+                <p>Ad Space: Earn $100+ per month with targeted RV ads!</p>
+            </div>
+            <div class="cta">
+                <p>Subscribe to our newsletter for exclusive money-making tips!</p>
+                <form action="#" method="post">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <section id="featured">
+            <h2>Featured Ways to Make Money</h2>
+            <ul>
+                <li><a href="monetize.html#flipping" class="affiliate">RV Flipping: Buy Low, Sell High</a></li>
+                <li><a href="monetize.html#rentals" class="affiliate">RV Rentals on Outdoorsy or Cruise America</a></li>
+                <li><a href="monetize.html#affiliate" class="affiliate">Affiliate Marketing with Amazon Associates</a></li>
+                <li><a href="blog.html" class="affiliate">Start an RV Blog and Monetize with Ads</a></li>
+            </ul>
+            <div class="ad">
+                <p>Promoted Ad: Best RV Accessories - Affiliate Link</p>
+            </div>
+        </section>
+        <section id="traffic-tips">
+            <h2>Boost Traffic and Engagement</h2>
+            <p>Use SEO keywords like 'RV money making ideas', share on social media, and create viral content. Engage with RV communities on Reddit and Facebook.</p>
+            <div class="social">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Boswell RV Guide. All rights reserved.</p>
+        <div class="social">
+            <a href="#">Follow us for more tips!</a>
+        </div>
+    </footer>
+</body>
+</html>
