@@ -26,4 +26,15 @@ A comprehensive website dedicated to helping people make money with RVs. Feature
 - Add PayPal buttons for donations or product sales.
 - Promote on RV forums and social media.
 
+## Affiliate Partnerships
+This site includes affiliate links to help monetize content:
+- **Amazon Associates** (Tag: boswellrvg-20): RV parts, books, tools, camping gear
+- **Outdoorsy**: RV rental platform partnerships
+- **RVshare**: RV rental marketplace
+- **RVTrader**: RV buying/selling marketplace
+- **Camping World**: RV supplies and accessories (ShareASale)
+- **REI Co-op**: Outdoor and camping gear (AvantLink)
+
+When visitors click these links and make purchases, the site earns a small commission at no extra cost to them.
+
 For more features, consider converting to a CMS like WordPress for dynamic content.
