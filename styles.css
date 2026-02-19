@@ -9,6 +9,8 @@ body {
 
 header {
     background: linear-gradient(135deg, #4CAF50, #2196F3);
+    background-size: 180% 180%;
+    animation: headerShift 10s ease infinite;
     color: white;
     padding: 2em 0;
     text-align: center;
@@ -49,10 +51,15 @@ main {
     padding: 2em;
     background: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 14px;
 }
 
 section {
     margin-bottom: 2em;
+    background: linear-gradient(180deg, #ffffff, #f8fbff);
+    border: 1px solid #e6edf5;
+    border-radius: 12px;
+    padding: 1.2em;
 }
 
 h2 {
@@ -74,10 +81,16 @@ h2 {
     color: #2196F3;
     text-decoration: none;
     font-weight: bold;
+    background: linear-gradient(90deg, #e3f2fd, #f1f8ff);
+    border: 1px solid #d6e9ff;
+    border-radius: 999px;
+    display: inline-block;
+    padding: 0.2em 0.65em;
 }
 
 .affiliate:hover {
     text-decoration: underline;
+    transform: translateY(-1px);
 }
 
 ul {
@@ -87,6 +100,11 @@ ul {
 
 ul li {
     margin: 0.5em 0;
+    background: #ffffff;
+    border: 1px solid #e9eef5;
+    border-left: 4px solid #4CAF50;
+    border-radius: 8px;
+    padding: 0.6em 0.75em;
 }
 
 form {
@@ -149,11 +167,61 @@ footer {
 }
 
 .cta {
-    background: #ffeb3b;
+    background: linear-gradient(135deg, #fff59d, #ffeb3b);
     padding: 1em;
     text-align: center;
     font-weight: bold;
     margin: 1em 0;
+    border: 1px solid #f5d10d;
+    border-radius: 10px;
+}
+
+.flash-intro {
+    background: linear-gradient(135deg, #e8f5e9, #e3f2fd);
+    border: 1px solid #bfe2ff;
+    border-radius: 12px;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.affiliate-spotlight {
+    background: linear-gradient(135deg, #1b5e20, #1565c0);
+    color: #fff;
+    border-radius: 12px;
+    padding: 1.1em;
+    margin: 1em 0;
+}
+
+.affiliate-spotlight h3 {
+    margin-top: 0;
+}
+
+.affiliate-spotlight .affiliate {
+    color: #0b2f59;
+    background: #ffffff;
+    border: none;
+    margin: 0.25em 0.35em 0.25em 0;
+}
+
+.button-link {
+    background: linear-gradient(135deg, #4CAF50, #2196F3);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.55em 0.95em;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 0.2em 0.25em;
+}
+
+.button-link:hover {
+    filter: brightness(1.05);
+}
+
+@keyframes headerShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 .rv-inline-photos,
