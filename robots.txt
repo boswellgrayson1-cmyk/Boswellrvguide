@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://floridarvguides.com/sitemap.xml
+Sitemap: https://boswellrvguide.com/sitemap.xml

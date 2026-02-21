@@ -146,6 +146,21 @@ footer {
     margin-top: 2em;
 }
 
+.footer-links {
+    margin-top: 0.6em;
+}
+
+.footer-links a {
+    color: #7bd67f;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0.2em;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
 .social {
     margin: 1em 0;
 }
